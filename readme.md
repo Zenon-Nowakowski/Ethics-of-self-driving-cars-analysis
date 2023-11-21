@@ -9,3 +9,9 @@ Rate the following from 1-10 on how you feel, 1 being strongly disagreed and 10 
 
 # Google form
 https://forms.gle/GoBpWajzrYar5F6M6 
+
+# Getting Started 
+Optimal way to import data is:
+```python
+df = pd.read_csv("data.csv", parse_dates=["Timestamp"])
+```
